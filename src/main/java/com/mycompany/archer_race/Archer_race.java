@@ -21,8 +21,11 @@ public class Archer_race {
         if(n1.Final_score()>n2.Final_score()){
             System.out.println(n1.GetName()+" won!");
         }
-        else{
+        else if(n1.Final_score()<n2.Final_score()){
             System.out.println(n2.GetName()+" won!");
+        }
+        else{
+         System.out.println(" the archers have tied");   
         }
     }
 }
